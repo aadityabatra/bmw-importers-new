@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bmwimportermarkets" mode="merge"/>
+    <filter root="/content/bmwimportermarkets" mode="merge"/>
+    <filter root="/content/dam/bmwimportermarkets" mode="merge">
+        <exclude pattern="/content/dam/bmwimportermarkets(/.*)?"/>
+        <include pattern="/content/dam/bmwimportermarkets/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bmwimportermarkets/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bmwimportermarkets" mode="merge"/>
+</workspaceFilter>
